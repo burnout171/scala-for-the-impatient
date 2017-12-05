@@ -1,6 +1,5 @@
 # Idea
-.idea/*
-*.iml
+.idea
 *.iws
 *.ipr
 
@@ -9,7 +8,6 @@ target/
 
 # Compiled files
 *.com
-*.class
 *.dll
 *.exe
 *.o

@@ -1,6 +1,6 @@
 import java.time.LocalDate
 
-object Exercise2 {
+object Exercise2 extends App {
 
   implicit class DateInterpolation(val sc: StringContext) extends AnyVal {
     def date(args: Any*) : LocalDate = {
