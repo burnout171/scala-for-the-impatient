@@ -6,7 +6,8 @@ import scala.util.matching.Regex.MatchIterator
 
 object Exercise9 extends App {
 
-  @SerialVersionUID(42L) class Person(val name: String) extends Serializable {
+  @SerialVersionUID(42L)
+  class Person(val name: String) extends Serializable {
     private val friends = new ArrayBuffer[Person]
     def addFriend(p: Person) {friends += p}
     def isFriend(p: Person) = friends.contains(p)
